@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="18" styleClass="pantalla"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="edu.estudiante.saludo.ui.InicioController">
+    <padding>
+        <Insets bottom="32" left="40" right="40" top="32"/>
+    </padding>
+    <Label styleClass="titulo" text="Solicitar saludo"/>
+    <Label wrapText="true" styleClass="subtitulo"
+           text="Actor: estudiante. El sistema te saludará por tu nombre y mencionará tu edad."/>
+    <Button defaultButton="true" onAction="#onSolicitarSaludo" styleClass="boton-principal"
+            text="Solicitar saludo"/>
+</VBox>

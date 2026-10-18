@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER_LEFT" spacing="12" styleClass="pantalla"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="edu.estudiante.saludo.ui.PedirDatosController">
+    <padding>
+        <Insets bottom="32" left="40" right="40" top="32"/>
+    </padding>
+    <Label styleClass="titulo" text="Pedir datos"/>
+    <Label wrapText="true" styleClass="subtitulo"
+           text="Incluido por Solicitar saludo: ingresa nombre, edad y hora (AM/PM)."/>
+
+    <Label text="Nombre"/>
+    <TextField fx:id="nombreField" promptText="Ejemplo: Camilo"/>
+
+    <Label text="Edad"/>
+    <TextField fx:id="edadField" promptText="Ejemplo: 21"/>
+
+    <Label text="Hora (AM / PM)"/>
+    <ComboBox fx:id="horaCombo" maxWidth="Infinity"/>
+
+    <Label fx:id="errorLabel" styleClass="error"/>
+    <Button defaultButton="true" onAction="#onEnviar" styleClass="boton-principal"
+            text="Enviar datos"/>
+</VBox>

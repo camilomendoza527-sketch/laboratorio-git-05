@@ -1,0 +1,55 @@
+.pantalla {
+    -fx-background-color: #f4f1ea;
+    -fx-font-family: "Segoe UI", "Calibri", sans-serif;
+}
+
+.titulo {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3d2b;
+}
+
+.subtitulo {
+    -fx-font-size: 14px;
+    -fx-text-fill: #4a5c50;
+    -fx-max-width: 420px;
+}
+
+.saludo {
+    -fx-font-size: 20px;
+    -fx-text-fill: #1f3d2b;
+    -fx-max-width: 420px;
+}
+
+.error {
+    -fx-text-fill: #a33b2b;
+    -fx-font-size: 13px;
+}
+
+.boton-principal {
+    -fx-background-color: #2f6b4f;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10 22 10 22;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.boton-principal:hover {
+    -fx-background-color: #25563f;
+}
+
+.boton-secundario {
+    -fx-background-color: transparent;
+    -fx-border-color: #2f6b4f;
+    -fx-text-fill: #2f6b4f;
+    -fx-font-size: 14px;
+    -fx-padding: 8 18 8 18;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+}
+
+.text-field, .combo-box {
+    -fx-pref-height: 34px;
+}

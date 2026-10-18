@@ -1,0 +1,51 @@
+COMO EJECUTAR — Solicitar saludo (JavaFX)
+==========================================
+
+Requisito
+---------
+Tener Java JDK 21 o superior instalado.
+Comprueba en PowerShell:
+
+    java -version
+
+
+Pasos (Windows)
+---------------
+1. Abre PowerShell.
+2. Entra a la carpeta del proyecto. Ejemplo:
+
+    cd "C:\Users\ESTUDIANTE\Downloads\P.CURSOR"
+
+3. Ejecuta:
+
+    .\run.ps1
+
+4. Debe abrirse la ventana "Solicitar saludo".
+
+
+Si PowerShell bloquea el script
+-------------------------------
+Escribe esto y vuelve a ejecutar:
+
+    Set-ExecutionPolicy -Scope Process Bypass
+    .\run.ps1
+
+
+Que hace run.ps1
+----------------
+- Descarga JavaFX la primera vez (carpeta lib\javafx).
+- Compila el codigo.
+- Abre la aplicacion.
+
+
+Uso de la aplicacion
+--------------------
+1. Clic en "Solicitar saludo".
+2. Ingresa nombre, edad y hora (AM/PM).
+3. Clic en "Enviar datos".
+4. El sistema te saluda por tu nombre y menciona tu edad.
+
+
+Opcional (si tienes Maven)
+--------------------------
+    mvn javafx:run
