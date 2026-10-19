@@ -1,7 +1,3 @@
-# Reflexión sobre lo realizado
-
-Esta carpeta recoge la experiencia de construir el caso de uso **Solicitar saludo** con JavaFX.
-
-- [Retos](retos.md)
-- [Descubrimientos](descubrimientos.md)
-- [Sorpresas](sorpresas.md)
+La verdad, este laboratorio fue un reto. Es de mis primeros proyectos trabajando con Java y la primera vez que uso Cursor, así que al principio me sentía bastante perdido con tantas cosas nuevas al mismo tiempo.
+El segundo paso donde nos dice que el sistema solicita nombre, edad, hora AM/PM, me confundía el am y pm por x motivo. No sabía muy bien cómo pedirlo en pantalla ni entendía para qué lo pedían si el saludo parecía centrarse solo en la edad y el nombre. Al final entendí que la idea era usarlo para dar los buenos días o las buenas tardes y que ese campo no estuviera sobrando.
+En conclusión, organizar el código y apoyarme en Cursor para entender qué estaba fallando, me sirvió mucho para darme cuenta de que programar una aplicación visual en Java tiene bastantes pasos que uno da por sentado cuando solo ve el resultado final.
